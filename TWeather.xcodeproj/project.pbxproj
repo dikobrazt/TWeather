@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA14B9CF27946C7700A0E190 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14B9CE27946C7700A0E190 /* DataModel.swift */; };
+		EA397D5127BC187600A5B3F5 /* ForecastTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA397D4F27BC187600A5B3F5 /* ForecastTVCell.swift */; };
+		EA397D5227BC187600A5B3F5 /* ForecastTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA397D5027BC187600A5B3F5 /* ForecastTVCell.xib */; };
+		EA3DB9A227BBF94E00A8CEF3 /* forecastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DB9A127BBF94E00A8CEF3 /* forecastVC.swift */; };
+		EAB82359279717ED00E827B4 /* detailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB82358279717ED00E827B4 /* detailedVC.swift */; };
+		EAB8235B2798480600E827B4 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8235A2798480600E827B4 /* Networking.swift */; };
 		EAE69C2827916C970078FF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE69C2727916C970078FF53 /* AppDelegate.swift */; };
 		EAE69C2A27916C970078FF53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE69C2927916C970078FF53 /* SceneDelegate.swift */; };
 		EAE69C2C27916C970078FF53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE69C2B27916C970078FF53 /* ViewController.swift */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA14B9CE27946C7700A0E190 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		EA397D4F27BC187600A5B3F5 /* ForecastTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTVCell.swift; sourceTree = "<group>"; };
+		EA397D5027BC187600A5B3F5 /* ForecastTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastTVCell.xib; sourceTree = "<group>"; };
+		EA3DB9A127BBF94E00A8CEF3 /* forecastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forecastVC.swift; sourceTree = "<group>"; };
+		EAB82358279717ED00E827B4 /* detailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedVC.swift; sourceTree = "<group>"; };
+		EAB8235A2798480600E827B4 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		EAE69C2427916C970078FF53 /* TWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE69C2727916C970078FF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAE69C2927916C970078FF53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +73,13 @@
 				EAE69C2727916C970078FF53 /* AppDelegate.swift */,
 				EAE69C2927916C970078FF53 /* SceneDelegate.swift */,
 				EAE69C2B27916C970078FF53 /* ViewController.swift */,
+				EA3DB9A127BBF94E00A8CEF3 /* forecastVC.swift */,
+				EA397D4F27BC187600A5B3F5 /* ForecastTVCell.swift */,
+				EAB82358279717ED00E827B4 /* detailedVC.swift */,
+				EA14B9CE27946C7700A0E190 /* DataModel.swift */,
+				EAB8235A2798480600E827B4 /* Networking.swift */,
 				EAE69C2D27916C970078FF53 /* Main.storyboard */,
+				EA397D5027BC187600A5B3F5 /* ForecastTVCell.xib */,
 				EAE69C3327916C990078FF53 /* Assets.xcassets */,
 				EAE69C3527916C990078FF53 /* LaunchScreen.storyboard */,
 				EAE69C3827916C990078FF53 /* Info.plist */,
@@ -128,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA397D5227BC187600A5B3F5 /* ForecastTVCell.xib in Resources */,
 				EAE69C3727916C990078FF53 /* LaunchScreen.storyboard in Resources */,
 				EAE69C3427916C990078FF53 /* Assets.xcassets in Resources */,
 				EAE69C2F27916C970078FF53 /* Main.storyboard in Resources */,
@@ -141,10 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB82359279717ED00E827B4 /* detailedVC.swift in Sources */,
+				EA14B9CF27946C7700A0E190 /* DataModel.swift in Sources */,
 				EAE69C2C27916C970078FF53 /* ViewController.swift in Sources */,
+				EA3DB9A227BBF94E00A8CEF3 /* forecastVC.swift in Sources */,
 				EAE69C3227916C970078FF53 /* TWeather.xcdatamodeld in Sources */,
 				EAE69C2827916C970078FF53 /* AppDelegate.swift in Sources */,
+				EA397D5127BC187600A5B3F5 /* ForecastTVCell.swift in Sources */,
 				EAE69C2A27916C970078FF53 /* SceneDelegate.swift in Sources */,
+				EAB8235B2798480600E827B4 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
